@@ -1,10 +1,17 @@
+/* Estiliza toda a barra de navegação e define sua cor de fundo escura. */
 .navbar {
+  /* Cinza escuro usado como fundo da barra. */
   background-color: #343a40;
+  /* Espaçamento vertical e horizontal que separa o conteúdo das bordas. */
   padding: 1rem 2rem;
 }
 
+/* Aplica dimensões diretamente à imagem dentro do link da logo. */
 .navbar-logo img {
+  /* Mantém a logo com largura fixa de 48 pixels. */
   width: 48px;
+  /* Mantém a logo com altura fixa de 48 pixels. */
   height: 48px;
+  /* Redimensiona sem deformar, preservando toda a área do conteúdo da imagem. */
   object-fit: contain;
 }

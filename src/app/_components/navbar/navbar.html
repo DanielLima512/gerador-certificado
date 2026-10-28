@@ -1,17 +1,29 @@
-
+<!-- Elemento semântico nav representa a área principal de navegação. -->
 <nav class="navbar navbar-expand-lg">
+  <!-- container-fluid ocupa toda a largura disponível com espaçamento responsivo. -->
   <div class="container-fluid">
+    <!-- Link da logo: ao clicar, o usuário volta para a página inicial. -->
     <a class="navbar-logo" href="/">
+      <!-- A imagem é obtida da pasta public e uma descrição ajuda acessibilidade. -->
       <img src="/logo.png" alt="Logo">
     </a>
 
+    <!-- collapse torna o conteúdo responsivo; nav-collapse organiza os links no Bootstrap. -->
     <div class="collapse navbar-collapse justify-content-end">
+      <!-- Lista sem marcação visual usada para agrupar os links da barra. -->
       <ul class="navbar-nav">
+        <!-- Item do menu com ícone e texto alinhados horizontalmente. -->
         <li class="nav-item d-flex align-items-center">
+          <!-- Ícone Phosphor de medalha carregado pela folha de estilos do index.html. -->
           <i class="ph ph-medal"></i>
+          <!-- Link do item ativo para a lista de certificados. -->
           <a class="nav-link active">Lista de certificados</a>
         </li>
+        <!-- Segundo item do menu, alinhando ícone e texto pelo Bootstrap. -->
         <li class="nav-item d-flex align-items-center">
+          <!-- Ícone Phosphor usado para representar a ação de criar algo novo. -->
+          <i class="ph ph-circles-three-plus"></i>
+          <!-- Texto do link que levará ao formulário de geração de certificados. -->
           <a class="nav-link">Gerar certificado</a>
         </li>
       </ul>
